@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Color variables */
+    --amber-300: #ffd95b;
+    --black-900: #000000;
+    --black-900-28: #00000028;
+    --black-900-2b: #0000002b;
+    --black-900-33: #00000033;
+    --blue-400: #44aee8;
+    --blue-gray-100: #d9d9d9;
+    --blue-gray-400: #898989;
+    --color-gray-1-0: #a3a3a3;
+    --color-gray-1-1: #33a3ab7;
+    --color-gray-2: #606060;
+    --color-light-bg: #f4f5f7;
+    --color-white: #ffffff;
+    --deep-orange-50: #f9f1e7;
+    --deep-purple-a200: #806df9;
+    --font-color: #333333;
+    --font-color-1: #666666;
+    --gray-100: #fbf7f2;
+    --gray-400: #c4c4c4;
+    --gray-400-01: #b0b0b0;
+    --gray-500: #9f9f9f;
+    --gray-900: #242424;
+    --lime-50: #faf3ea;
+    --lime-800-38: #b88e2f38;
+    --lime-800-99: #b88e2f99;
+    --primary: #b88e2f;
+    --red-300: #971717;
+    --red-a700: #ff0000;
+    --teal-300: #2ec1ac;
+    --white-a700-b7: #ffffffb7;
+
+    /* Shadow variables */
+    --shadow-xs: 0 4px 14px 1px #00000028;
+
+    /* Border radius variables */
+    --radius-xs: 5px;
+    --radius-sm: 6px;
+    --radius-md: 10px;
+    --radius-lg: 14px;
+    --radius-xl: 24px;
+
+    /* Spacing variables */
+    --space-xs: 2px;
+    --space-sm: 4px;
+    --space-md: 6px;
+    --space-lg: 10px;
+    --space-xl: 12px;
+    --space-2xl: 14px;
+    --space-3xl: 16px;
+    --space-4xl: 18px;
+    --space-5xl: 20px;
+    --space-6xl: 22px;
+    --space-7xl: 24px;
+    --space-8xl: 26px;
+    --space-9xl: 28px;
+    --space-10xl: 30px;
+    --space-11xl: 32px;
+    --space-12xl: 36px;
+    --space-13xl: 42px;
+    --space-14xl: 44px;
+    --space-15xl: 54px;
+    --space-16xl: 74px;
+  }
+}
+
+@layer components {
+  @apply w-full mx-auto max-w-[1246px];
+}
